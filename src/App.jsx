@@ -1,11 +1,10 @@
+import { Header } from "./components/Header"
 
 function App() {
 
   return (
     <>
-      <h1 className="container">
-        adasd
-      </h1>
+      <Header />
     </>
   )
 }
