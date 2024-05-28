@@ -1,14 +1,19 @@
 .title-1{
     font-size: var(--size-1);
-    color: var(--black);
+    line-height: var(--l-height-1);
     font-weight: var(--weight-1);
     font-family: var(--font-1);
+}
+.title-1B{
+    font-size: var(--size-1);
     line-height: var(--l-height-1);
+    font-weight: var(--weight-1);
+    font-family: var(--font-1);
+    color: var(--blue);
 }
 
 .title-2{
     font-size: var(--size-2);
-    color: var(--black);
     font-weight: var(--weight-1);
     line-height: var(--l-height-2);
     font-family: var(--font-1);
@@ -33,7 +38,7 @@
 }
 
 .boldParagraph{
-    font-size: var(--size-4);
+    font-size: var(--size-5);
     color: var(--black);
     font-weight: var(--weight-1);
     font-family: var(--font-2);
