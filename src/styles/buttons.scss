@@ -9,9 +9,16 @@
     font-family: var(--font-1);
     line-height: var(--l-height-6);
     font-weight: var(--weight-1);
+    cursor: pointer;
 }
 
 .btn-candidatar{
     color: var(--blue);
     background-color: var(--white);
+    
+    &:hover{
+        color: var(--white);
+        background-color: var(--blue);
+
+    }
 }

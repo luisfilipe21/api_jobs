@@ -8,7 +8,6 @@ export const Vagas = () => {
 
     const { job } = useContext(JobContext);
 
-    console.log(job)
 
     return (
         <section>
@@ -23,26 +22,10 @@ export const Vagas = () => {
                                     return (
                                         <CardVagas key={data.id} 
                                         data={data}/>
+
                                     )
                                 })
                             }
-
-                            {/* <li className={style.list}>
-                                <div>
-                                    -
-                                </div>
-                                <div>
-                                    <h3>
-                                        {job[0].position}
-                                    </h3>
-                                    <p>{job[0].description}</p>
-                                </div>
-                                <div>
-                                    <button className="btn">
-                                        Candidatar-se
-                                    </button>
-                                </div>
-                            </li> */}
                         </ul>
                     </div>
                 </div>

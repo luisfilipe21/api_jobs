@@ -2,4 +2,13 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+    .open{
+        cursor: pointer;
+        transition: 1s;
+    }    
+}
+
+.description{
+    transition: 1s;
 }
