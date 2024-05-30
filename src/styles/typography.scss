@@ -56,13 +56,20 @@
 
 .label{
     font-size: var(--size-label);
-    color: var(--light-blue);
+    color: var(--black);
     font-weight: var(--weight-2);
     font-family: var(--font-1);
     line-height: var(--l-height-6);
 }
 
+.label-2{
+    font-size: var(--size-4);
+    color: var(--blue);
+    font-weight: var(--weight-1);
+    font-family: var(--font-1);
+    line-height: var(--l-height-5);
+}
+
 .span{
     font-weight: var(--weight-1);
-
 }

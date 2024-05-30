@@ -1,0 +1,18 @@
+form {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    button {
+        width: 12.5rem;
+        align-self: flex-end;
+    }
+
+    .divInput {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 0.5rem;
+        height: 100%;
+    }
+}

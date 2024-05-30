@@ -5,18 +5,17 @@ import { Inputs } from "../../Input";
 
 export const FormRegisterPosition = () => {
 
-
     const { register, handleSubmit, formState: { errors } } = useForm({
         resolver: zodResolver()
     });
 
     const submit = async (formData) => {
-        // cadastro para vagas
+       console.log(formData);
     };
     
 
     return (
-        <form onSubmit={submit}>
+        <form onSubmit={handleSubmit(submit)}>
             <div className={style.divInput}>
                 <Inputs
                     {...register("name")}

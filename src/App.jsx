@@ -2,6 +2,9 @@ import { useContext } from "react";
 import { Modal } from "./components/Modal"
 import { Home } from "./pages/Home"
 import { JobContext } from "./providers/JobsProvider";
+import { LoginPageUser } from "./pages/LoginPageUser";
+import { RegisterPageUser } from "./pages/RegisterPageUser";
+import { RegisterPageAdmin } from "./pages/RegisterPageAdmin";
 
 
 function App() {
@@ -9,11 +12,13 @@ function App() {
 
   return (
     <>
-      <Home />
+      {/* <Home />
       {
         modal ? <Modal /> : null 
-      }
-      
+      } */}
+      {/* <LoginPageUser/> */}
+      {/* <RegisterPageUser /> */}
+      {/* <RegisterPageAdmin /> */}
     </>
   )
 }
